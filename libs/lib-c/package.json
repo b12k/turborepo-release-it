@@ -1,0 +1,12 @@
+{
+  "name": "lib-c",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "release": "release-it --ci"
+  },
+  "devDependencies": {
+    "release-it": "15.6.0",
+    "config-release-it": "*"
+  }
+}

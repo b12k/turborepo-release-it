@@ -1,0 +1,13 @@
+{
+  "name": "app-a",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "release": "release-it --ci"
+  },
+  "devDependencies": {
+    "config-release-it": "*",
+    "lib-a": "*",
+    "release-it": "15.6.0"
+  }
+}
