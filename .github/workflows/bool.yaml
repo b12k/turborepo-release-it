@@ -17,5 +17,5 @@ jobs:
   not-selected:
     if: ${{ inputs.isSelected }} == false
     runs-on: ubuntu-latest
-      steps:
-        - run: echo "Selected"
+    steps:
+      - run: echo "Selected"
