@@ -1,0 +1,21 @@
+name: Bool
+
+on:
+  workflow_dispatch:
+    inputs:
+      isSelected:
+        description: 'Select me'
+        required: false
+        type: boolean
+
+jobs:
+  selected:
+    if: ${{ inputs.isSelected }} == true
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Selected"
+  not-selected:
+    if: ${{ inputs.isSelected }} == false
+    runs-on: ubuntu-latest
+      steps:
+        - run: echo "Selected"
