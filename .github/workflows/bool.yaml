@@ -10,12 +10,12 @@ on:
 
 jobs:
   selected:
-    if: ${{ inputs.isSelected }} == "true"
+    if: inputs.isSelected == true
     runs-on: ubuntu-latest
     steps:
       - run: echo "Selected"
   not-selected:
-    if: ${{ inputs.isSelected }} == "false"
+    if: inputs.isSelected == false
     runs-on: ubuntu-latest
     steps:
       - run: echo "Not Selected"
