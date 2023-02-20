@@ -1,0 +1,13 @@
+{
+  "name": "@mono/app-a",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "release": "release-it --ci"
+  },
+  "devDependencies": {
+    "@mono/config-release-it": "*",
+    "@mono/lib-a": "*",
+    "release-it": "15.6.0"
+  }
+}
