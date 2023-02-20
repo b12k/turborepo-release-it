@@ -1,0 +1,12 @@
+{
+  "name": "@mono/lib-c",
+  "version": "0.2.0",
+  "license": "MIT",
+  "scripts": {
+    "release": "release-it --ci"
+  },
+  "devDependencies": {
+    "@mono/config-release-it": "*",
+    "release-it": "15.6.0"
+  }
+}
