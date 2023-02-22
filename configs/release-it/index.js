@@ -12,10 +12,7 @@ module.exports = {
       },
     },
   },
-  npm: {
-    publish: false,
-    versionArgs: ['--workspaces false'],
-  },
+  npm: false,
   github: {
     releaseName: ['Release:', packageName, 'v${version}'].join(' '),
     // release: true,
@@ -28,9 +25,9 @@ module.exports = {
     commitMessage: ['feat(release):', packageName, 'released version ${version}'].join(' '),
   },
   hooks: {
-    // 'after:bump': [
-    //   'mvm-update -v ${version}',
-    //   'git add --all'
-    // ],
+    'after:bump': [
+      'mvm-update -v ${version}',
+      'git add --all'
+    ],
   },
 };
