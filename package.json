@@ -12,7 +12,7 @@
     "configs/release-it"
   ],
   "scripts": {
-    "release": "turbo release --concurrency=1",
+    "release": "turbo release --concurrency=1 --continue",
     "prettier": "prettier . -w --ignore-unknown",
     "prepare": "husky install && turbo prepare"
   },
