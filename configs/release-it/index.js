@@ -25,9 +25,9 @@ module.exports = {
     commitMessage: ['feat(release):', packageName, 'released version ${version}'].join(' '),
   },
   hooks: {
-    'after:bump': [
-      'mvm-update -v ${version}',
-      'git add --all'
-    ],
+    // 'after:bump': [
+    //   'mvm-update -v ${version}',
+    //   'git add --all'
+    // ],
   },
 };
