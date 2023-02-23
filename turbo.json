@@ -1,0 +1,14 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "pipeline": {
+    "release": {
+      "dependsOn": ["^release"],
+      "outputMode": "new-only"
+    },
+    "prepare": {
+      "dependsOn": ["^prepare"],
+      "outputMode": "new-only",
+      "outputs": ["dist"]
+    }
+  }
+}

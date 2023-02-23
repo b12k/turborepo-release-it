@@ -1,0 +1,8 @@
+.idea
+.vscode
+
+.turbo
+
+dist
+
+node_modules
