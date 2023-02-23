@@ -1,0 +1,27 @@
+{
+  "name": "mono",
+  "version": "0.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "workspaces": [
+    "apps/app-a",
+    "apps/app-b",
+    "libs/lib-a",
+    "libs/lib-b",
+    "libs/lib-c",
+    "configs/release-it"
+  ],
+  "scripts": {
+    "release": "turbo release --concurrency=1 --continue",
+    "prettier": "prettier . -w --ignore-unknown",
+    "prepare": "husky install && turbo prepare"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.4.4",
+    "@commitlint/config-conventional": "17.4.4",
+    "husky": "8.0.3",
+    "prettier": "2.8.4",
+    "turbo": "1.8.1"
+  },
+  "packageManager": "yarn@1.22.19"
+}
