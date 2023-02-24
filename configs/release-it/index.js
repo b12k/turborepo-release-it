@@ -22,7 +22,7 @@ module.exports = {
     tagName: [packageName, '-v${version}'].join(''),
     // push: true,
     commit: true,
-    commitMessage: ['feat(release):', packageName, 'released version ${version}'].join(' '),
+    commitMessage: [`ci(${packageName.replace('@', '')}): released version`, '${version}'].join(' '),
   },
   hooks: {
     'before:git:release': [
