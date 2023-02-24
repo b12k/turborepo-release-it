@@ -1,0 +1,12 @@
+{
+  "name": "@mono/app-b",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "release": "mvm-skip || release-it --ci"
+  },
+  "devDependencies": {
+    "@mono/release-it": "*",
+    "@mono/lib-b": "*"
+  }
+}
