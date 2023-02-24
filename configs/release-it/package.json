@@ -2,7 +2,10 @@
   "name": "@mono/release-it",
   "version": "0.0.0",
   "license": "MIT",
-  "main": "index.js",
+  "main": ".release-it.js",
+  "scripts": {
+    "release": "mvm-skip || release-it --ci"
+  },
   "devDependencies": {
     "@b12k/mvm": "0.0.2",
     "@release-it/bumper": "4.0.2",
