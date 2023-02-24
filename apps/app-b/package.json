@@ -5,8 +5,10 @@
   "scripts": {
     "release": "mvm-skip || release-it --ci"
   },
-  "devDependencies": {
-    "@mono/release-it": "*",
+  "dependencies": {
     "@mono/lib-b": "*"
+  },
+  "devDependencies": {
+    "@mono/release-it": "*"
   }
 }
