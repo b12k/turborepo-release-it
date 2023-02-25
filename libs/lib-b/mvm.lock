@@ -1,1 +1,9 @@
-{"devDependencies":{"@mono/lib-c":"0.1.1","@mono/release-it":"0.2.0"},"dependencies":{"@mono/lib-c":"0.1.2"}}
+{
+  "dependencies": {
+    "@mono/lib-c": "0.1.2"
+  },
+  "devDependencies": {
+    "@mono/lib-c": "0.1.1",
+    "@mono/release-it": "0.3.0"
+  }
+}
