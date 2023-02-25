@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@b12k/mvm@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@b12k/mvm/-/mvm-0.0.2.tgz#e5177d5d3cfecd98007182981da289dd4df78b5c"
-  integrity sha512-qduyTDneyq4SA/gpdDYHhIG/b7pwpBo8dAmuT2wHvKdFAJv6+Luyt8f9+V+FQ1c6/GAzpz8UV8P7LuFWAPnjpg==
+"@b12k/mvm@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@b12k/mvm/-/mvm-0.0.3.tgz#d396b9f36f2cafb34b748a26426e9318924ff7ec"
+  integrity sha512-4DtYfUUDgxXsQTjhnB97I9i89+M8vE69y2drkGBjQGNSffpGkLvvJ5vHPIRCVbsecW/VAra0OxCx4PS17jfSnw==
   dependencies:
     commander "10.0.0"
     fs-extra "11.1.0"
